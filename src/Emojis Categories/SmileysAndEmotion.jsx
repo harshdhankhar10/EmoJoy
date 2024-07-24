@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-
+import { Helmet } from 'react-helmet';
 const SmileysAndEmotion = () => {
   const [copiedEmoji, setCopiedEmoji] = useState(null);
   const [search, setSearch] = useState("");
@@ -226,6 +226,7 @@ const SmileysAndEmotion = () => {
           onChange={(e) => setSearch(e.target.value)} 
         />
       </div>
+     
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-12 gap-4">
         {filteredEmojis.map((emoji) => (
           <motion.div

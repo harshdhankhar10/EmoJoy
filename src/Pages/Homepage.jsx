@@ -1,5 +1,6 @@
 import React from 'react'
 import SmileysAndEmotion from '../Emojis Categories/SmileysAndEmotion'
+import PeoplesAndBody from '../Emojis Categories/peopleAndBody'
 import { Helmet } from 'react-helmet'
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Helmet>
         <SmileysAndEmotion />
+        <PeoplesAndBody />
     </>
   )
 }
