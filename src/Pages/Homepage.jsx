@@ -2,6 +2,10 @@ import React from 'react'
 import SmileysAndEmotion from '../Emojis Categories/SmileysAndEmotion'
 import PeoplesAndBody from '../Emojis Categories/peopleAndBody'
 import { Helmet } from 'react-helmet'
+import AnimalsAndNature from '../Emojis Categories/AnimalsAndNature'
+import FoodAndDrinks from '../Emojis Categories/FoodAndDrinks'
+import TravelAndPlaces from '../Emojis Categories/TravelAndPlaces'
+import Activities from '../Emojis Categories/Activities'
 const Homepage = () => {
   return (
     <>
@@ -15,6 +19,10 @@ const Homepage = () => {
         </Helmet>
         <SmileysAndEmotion />
         <PeoplesAndBody />
+        <AnimalsAndNature />
+        <FoodAndDrinks />
+        <TravelAndPlaces/>
+        <Activities />
     </>
   )
 }
