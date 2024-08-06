@@ -38,7 +38,7 @@ To get started with EmoJoy, follow these steps:
     Start the development server to see EmoJoy in action:
 
     ```bash
-    npm start
+    npm run dev
     ```
 
     Open your browser and go to `http://localhost:3000` to view the website.
